@@ -1,0 +1,46 @@
+.container-about {
+  padding: var(--spacing-sm);
+  width: 640px;
+  top: 0;
+  text-align: left;
+}
+.image-arch {
+    border-radius: var(--radius-image-round) var(--radius-image-round) 0 0;
+    height: 3.2rem;
+    width: 5rem;
+    object-fit: cover;
+    display: inline;
+    margin: 0 var(--spacing-xxs);
+  }
+  
+.container-about h1 {
+  text-align: left;
+  color: var(--color-text-dark);
+  display: inline;
+}
+
+.cv-container {
+    max-width: 640px;
+}
+
+.cv-section {
+    display: flex;
+}
+
+.year {
+    width: 4rem;
+    font-size: var(--font-size-base);
+    font-weight: bold;
+    font-family: var(--font-secondary);
+    color:  var(--color-primary-dark);
+    text-align: left;
+    padding-right: 20px;
+    line-height: var(--line-height-base);
+}
+
+.description {
+    flex: 1;
+    padding-top:0;
+    padding-left: 20px;
+    border-left: 2px solid var(--color-primary-dark); /* Border for the description */
+}

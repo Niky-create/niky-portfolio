@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Round');
+
+.top-button, .back-button {
+    position: sticky;
+  }
+
+.top-button {
+  position: fixed;
+  bottom: var(--spacing-xs);
+  right: var(--spacing-xs);
+  z-index: 1000;
+}
+
+.back-button {
+  top: var(--spacing-xs);
+  left: var(--spacing-xs);
+}
+
+.back-button, .scroll-to-top {
+    background-color: var(--color-background-dark);
+    color: var(--color-text-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 80px;
+    transition: background-color 0.3s;
+    height: 48px;
+    width: 48px;
+  }
+  
+.back-button:hover, .scroll-to-top:hover {
+    background-color: var(--color-primary-dark);
+    color: var(--color-background-dark);
+  }
+  
+.icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+  
+  
+  

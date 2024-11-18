@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+:root {
+  /* Colors */
+  --color-primary-dark: #3434ff; /* Primary color */
+  --color-primary-light: #3434ff; /* Primary color */
+  --color-tertiary: #dddddd; /* Primary color */
+  
+  --color-background-dark: #d2c9be;
+  --color-text-dark: #242424; /* Primary text color */
+  --color-text-light:  #d2c9be;
+  --color-background-light: #3f3f3f;
+
+  /* Typography */
+  --font-primary: 'SF UI Text', sans-serif; /* Primary font */
+  --font-secondary: 'SF UI Text', serif; /* Secondary font */
+
+  --font-size-uber: 1rem; /* Uber small font size */
+  --font-size-base: 1.1rem; /* Base font size (16px) */
+  --font-size-medium: 1.5rem; /* Base font size (16px) */
+  --font-size-large: 2rem; /* Large font size (32px) */
+  --font-size-extralarge: 3.6rem; /* Extra large font size (48px) */
+
+  --font-weight-normal: 400; /* Normal font weight */
+  --font-weight-medium: 500; /* Normal font weight */
+  --font-weight-bold: 700; /* Bold font weight */
+  --line-height-base: 1.5; /* Base line height */
+  --line-height-extralarge: 1.2; /* Base line height */
+
+  /* Spacing */
+  --spacing-xxs: 0.5rem; /* Extra small spacing */
+  --spacing-xs: 1rem; /* Extra small spacing */
+  --spacing-sm: 2rem; /* Small spacing */
+  --spacing-md: 4rem; /* Medium spacing */
+  --spacing-lg: 16rem; /* Large spacing */
+  --spacing-xl: 48rem; /* Extra large spacing */
+
+  --letterspacing-extralarge: -0.12rem; /* Heading letter spacing */
+  --letterspacing-large: -0.08rem; /* Heading letter spacing */
+  --letterspacing-base: 0rem; /* Heading letter spacing */
+  --letterspacing-uber: 0.1rem;
+
+  /* Shadows */
+  --shadow-small: 0 1px 3px rgba(0, 0, 0, 0.1); /* Small shadow */
+  --shadow-medium: 0 3px 6px rgba(0, 0, 0, 0.15); /* Medium shadow */
+  --shadow-large: 0 10px 20px rgba(0, 0, 0, 0.2); /* Large shadow */
+
+  /* Transitions */
+  --transition-fast: 0.2s ease-in-out; /* Fast transition */
+  --transition-normal: 0.3s ease-in-out; /* Normal transition */
+  --transition-slow: 0.5s ease-in-out; /* Slow transition */
+
+  --radius-image: 1rem;
+  --radius-image-round: 20rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  padding: var(--spacing-xs);
+}
+
+/* Container for the header and grid layout */
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-section {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.header-section a {
+  padding: 0 var(--spacing-xs);
+}
+
+/* Grid container for project cards */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-xxs);
+  width: 100%;
+}
+
+/* Individual project section */
+.project-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container img {
+  max-width: 100%;
+  max-height: 800px;
+  object-fit: cover;
+  margin-top: var(--spacing-xxs);
+  border-radius: var(--radius-image);
+  background-color: var(--color-tertiary);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: var(--shadow-small); /* Initial shadow */
+  width: 100%; /* Ensure images take full width of the container */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.card-container img:hover {
+  transform: scale(1.02); /* Zoom effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Drop shadow on hover */
+}
+.row-image, .column-image {
+  display: none;
+}
+.link-item {
+  font-family: var(--font-secondary); /* Use Lato */
+  font-size: var(--font-size-uber); /* 32px */
+  color: var(--color-text-dark);
+  text-decoration: none;
+}
+.link-item:hover {
+  color: var(--color-primary-dark);
+}
+
+@media screen and (max-width: 740px) {
+  .header-section {
+    padding: var(--spacing-xs);
+    justify-content: space-between;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+
+}
