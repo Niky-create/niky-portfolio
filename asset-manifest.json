@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/niky-portfolio/static/css/main.ac06e8e4.css",
+    "main.js": "/niky-portfolio/static/js/main.b7f4a38f.js",
+    "static/media/mockup_2.png": "/niky-portfolio/static/media/mockup_2.341b8776521a0e74e178.png",
+    "static/media/manager.png": "/niky-portfolio/static/media/manager.28fbb35b0c207b946d8d.png",
+    "static/media/student.png": "/niky-portfolio/static/media/student.858e68ee22950a247299.png",
+    "static/media/koncept1.png": "/niky-portfolio/static/media/koncept1.41cb3349668fca8ef18c.png",
+    "static/media/mockup_1.png": "/niky-portfolio/static/media/mockup_1.09c286ca18f26aca127f.png",
+    "static/media/koncept2.png": "/niky-portfolio/static/media/koncept2.3711e61eece47b8f2898.png",
+    "static/media/about.jpg": "/niky-portfolio/static/media/about.e910563fce3c5cce911c.jpg",
+    "static/media/focusand.png": "/niky-portfolio/static/media/focusand.6b9b02cf0b03dd5d64f2.png",
+    "static/media/koncept3.png": "/niky-portfolio/static/media/koncept3.4ab5f28073492bde2277.png",
+    "static/media/LoremIpsum_graph.png": "/niky-portfolio/static/media/LoremIpsum_graph.12498dccc477fb618e5b.png",
+    "static/media/koncept4.png": "/niky-portfolio/static/media/koncept4.2139dfd9a4435ed53f64.png",
+    "static/media/metada_0.png": "/niky-portfolio/static/media/metada_0.06cbf299bc8582e1db05.png",
+    "static/media/san_mercurio.png": "/niky-portfolio/static/media/san_mercurio.62e1793a956e07c7923f.png",
+    "index.html": "/niky-portfolio/index.html",
+    "main.ac06e8e4.css.map": "/niky-portfolio/static/css/main.ac06e8e4.css.map",
+    "main.b7f4a38f.js.map": "/niky-portfolio/static/js/main.b7f4a38f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac06e8e4.css",
+    "static/js/main.b7f4a38f.js"
+  ]
+}
