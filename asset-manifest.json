@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/niky-portfolio/static/css/main.ac06e8e4.css",
-    "main.js": "/niky-portfolio/static/js/main.b7f4a38f.js",
+    "main.js": "/niky-portfolio/static/js/main.1d9e6792.js",
     "static/media/mockup_2.png": "/niky-portfolio/static/media/mockup_2.341b8776521a0e74e178.png",
     "static/media/manager.png": "/niky-portfolio/static/media/manager.28fbb35b0c207b946d8d.png",
     "static/media/student.png": "/niky-portfolio/static/media/student.858e68ee22950a247299.png",
@@ -17,10 +17,10 @@
     "static/media/san_mercurio.png": "/niky-portfolio/static/media/san_mercurio.62e1793a956e07c7923f.png",
     "index.html": "/niky-portfolio/index.html",
     "main.ac06e8e4.css.map": "/niky-portfolio/static/css/main.ac06e8e4.css.map",
-    "main.b7f4a38f.js.map": "/niky-portfolio/static/js/main.b7f4a38f.js.map"
+    "main.1d9e6792.js.map": "/niky-portfolio/static/js/main.1d9e6792.js.map"
   },
   "entrypoints": [
     "static/css/main.ac06e8e4.css",
-    "static/js/main.b7f4a38f.js"
+    "static/js/main.1d9e6792.js"
   ]
 }
